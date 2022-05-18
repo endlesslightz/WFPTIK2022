@@ -1,0 +1,80 @@
+CRITICAL - 2022-04-20 09:24:06 --> Cannot access offset of type string on string
+#0 C:\xampp8\htdocs\perpustakaan\system\View\View.php(210): include()
+#1 C:\xampp8\htdocs\perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp8\htdocs\perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#3 C:\xampp8\htdocs\perpustakaan\app\Controllers\User.php(25): view('user', Array)
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->index('raynold')
+#5 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#9 {main}
+CRITICAL - 2022-04-20 09:44:04 --> Call to a member function find() on array
+#0 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->detail('1')
+#1 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#5 {main}
+CRITICAL - 2022-04-20 09:44:20 --> Call to a member function first() on array
+#0 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->detail('1')
+#1 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#5 {main}
+CRITICAL - 2022-04-20 09:44:49 --> Undefined variable $item
+#0 C:\xampp8\htdocs\perpustakaan\app\Views\user\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp8\\htdoc...', 13)
+#1 C:\xampp8\htdocs\perpustakaan\system\View\View.php(210): include('C:\\xampp8\\htdoc...')
+#2 C:\xampp8\htdocs\perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8\htdocs\perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('user/detail', Array, true)
+#4 C:\xampp8\htdocs\perpustakaan\app\Controllers\User.php(37): view('user/detail', Array)
+#5 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->detail('1')
+#6 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#10 {main}
+CRITICAL - 2022-04-20 09:45:03 --> Trying to access array offset on value of type null
+#0 C:\xampp8\htdocs\perpustakaan\app\Views\user\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp8\\htdoc...', 13)
+#1 C:\xampp8\htdocs\perpustakaan\system\View\View.php(210): include('C:\\xampp8\\htdoc...')
+#2 C:\xampp8\htdocs\perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8\htdocs\perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('user/detail', Array, true)
+#4 C:\xampp8\htdocs\perpustakaan\app\Controllers\User.php(37): view('user/detail', Array)
+#5 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->detail('pic1.jpg')
+#6 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#10 {main}
+CRITICAL - 2022-04-20 21:22:51 --> Object of class App\Controllers\User could not be converted to string
+#0 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->detail('1')
+#1 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#5 {main}
+CRITICAL - 2022-04-20 21:44:28 --> Trying to access array offset on value of type null
+#0 C:\xampp8\htdocs\perpustakaan\app\Views\user\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp8\\htdoc...', 13)
+#1 C:\xampp8\htdocs\perpustakaan\system\View\View.php(210): include('C:\\xampp8\\htdoc...')
+#2 C:\xampp8\htdocs\perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8\htdocs\perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('user/detail', Array, true)
+#4 C:\xampp8\htdocs\perpustakaan\app\Controllers\User.php(37): view('user/detail', Array)
+#5 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->detail('detail')
+#6 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#10 {main}
+CRITICAL - 2022-04-20 21:53:12 --> Trying to access array offset on value of type null
+#0 C:\xampp8\htdocs\perpustakaan\app\Views\user\detail.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp8\\htdoc...', 13)
+#1 C:\xampp8\htdocs\perpustakaan\system\View\View.php(210): include('C:\\xampp8\\htdoc...')
+#2 C:\xampp8\htdocs\perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8\htdocs\perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('user/detail', Array, true)
+#4 C:\xampp8\htdocs\perpustakaan\app\Controllers\User.php(37): view('user/detail', Array)
+#5 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->detail('detail')
+#6 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#10 {main}

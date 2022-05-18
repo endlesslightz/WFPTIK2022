@@ -1,0 +1,58 @@
+ERROR - 2022-04-13 21:30:52 --> Table 'perpustakaan.user' doesn't exist
+CRITICAL - 2022-04-13 21:30:52 --> Table 'perpustakaan.user' doesn't exist
+#0 C:\xampp8\htdocs\perpustakaan\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * FROM `...', 0)
+#1 C:\xampp8\htdocs\perpustakaan\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM `...')
+#2 C:\xampp8\htdocs\perpustakaan\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM `...')
+#3 C:\xampp8\htdocs\perpustakaan\system\Model.php(726): CodeIgniter\Database\BaseConnection->query('SELECT * FROM `...')
+#4 C:\xampp8\htdocs\perpustakaan\app\Models\UserModel.php(45): CodeIgniter\Model->__call('query', Array)
+#5 C:\xampp8\htdocs\perpustakaan\app\Controllers\User.php(21): App\Models\UserModel->getUsernya()
+#6 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->index()
+#7 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#11 {main}
+CRITICAL - 2022-04-13 21:39:14 --> Cannot access offset of type string on string
+#0 C:\xampp8\htdocs\perpustakaan\system\View\View.php(210): include()
+#1 C:\xampp8\htdocs\perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp8\htdocs\perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#3 C:\xampp8\htdocs\perpustakaan\app\Controllers\User.php(23): view('user', Array)
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->index()
+#5 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#9 {main}
+CRITICAL - 2022-04-13 21:40:22 --> Cannot access offset of type string on string
+#0 C:\xampp8\htdocs\perpustakaan\system\View\View.php(210): include()
+#1 C:\xampp8\htdocs\perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp8\htdocs\perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#3 C:\xampp8\htdocs\perpustakaan\app\Controllers\User.php(25): view('user', Array)
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->index()
+#5 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#9 {main}
+CRITICAL - 2022-04-13 21:40:33 --> Cannot access offset of type string on string
+#0 C:\xampp8\htdocs\perpustakaan\system\View\View.php(210): include()
+#1 C:\xampp8\htdocs\perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp8\htdocs\perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#3 C:\xampp8\htdocs\perpustakaan\app\Controllers\User.php(25): view('user', Array)
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->index()
+#5 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#9 {main}
+CRITICAL - 2022-04-13 21:41:54 --> Cannot access offset of type string on string
+#0 C:\xampp8\htdocs\perpustakaan\system\View\View.php(210): include()
+#1 C:\xampp8\htdocs\perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp8\htdocs\perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('user', Array, true)
+#3 C:\xampp8\htdocs\perpustakaan\app\Controllers\User.php(25): view('user', Array)
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->index()
+#5 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#9 {main}

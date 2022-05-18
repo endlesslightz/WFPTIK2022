@@ -1,0 +1,231 @@
+CRITICAL - 2022-05-18 10:28:36 --> Undefined variable $nama
+#0 C:\xampp8\htdocs\perpustakaan\app\Views\user\form.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp8\\htdoc...', 13)
+#1 C:\xampp8\htdocs\perpustakaan\system\View\View.php(210): include('C:\\xampp8\\htdoc...')
+#2 C:\xampp8\htdocs\perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8\htdocs\perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('user/form', Array, true)
+#4 C:\xampp8\htdocs\perpustakaan\app\Controllers\User.php(101): view('user/form')
+#5 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->getForm()
+#6 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#10 {main}
+CRITICAL - 2022-05-18 10:28:41 --> Undefined variable $nama
+#0 C:\xampp8\htdocs\perpustakaan\app\Views\user\form.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp8\\htdoc...', 13)
+#1 C:\xampp8\htdocs\perpustakaan\system\View\View.php(210): include('C:\\xampp8\\htdoc...')
+#2 C:\xampp8\htdocs\perpustakaan\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp8\htdocs\perpustakaan\system\Common.php(1089): CodeIgniter\View\View->render('user/form', Array, true)
+#4 C:\xampp8\htdocs\perpustakaan\app\Controllers\User.php(101): view('user/form')
+#5 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->getForm()
+#6 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#10 {main}
+CRITICAL - 2022-05-18 10:58:13 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 10:58:27 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 10:59:41 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:09:54 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:10:08 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:11:43 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:12:41 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:12:44 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:12:45 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:12:46 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:12:46 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:12:46 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:27:00 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:30:10 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:30:39 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:30:45 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:31:28 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:38:16 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:42:54 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:42:57 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:42:58 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:43:00 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}
+CRITICAL - 2022-05-18 11:46:02 --> The action you requested is not allowed.
+#0 C:\xampp8\htdocs\perpustakaan\system\Security\Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\xampp8\htdocs\perpustakaan\system\Filters\CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\xampp8\htdocs\perpustakaan\system\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('user/insertAjax', 'before')
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}

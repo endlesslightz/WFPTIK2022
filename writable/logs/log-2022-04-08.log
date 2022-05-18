@@ -1,0 +1,15 @@
+CRITICAL - 2022-04-08 01:46:14 --> Undefined variable $usermodel
+#0 C:\xampp8\htdocs\perpustakaan\app\Controllers\User.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp8\\htdoc...', 19)
+#1 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#6 {main}
+CRITICAL - 2022-04-08 01:46:23 --> Call to a member function findAll() on null
+#0 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#5 {main}

@@ -1,0 +1,33 @@
+CRITICAL - 2022-03-23 21:05:15 --> Undefined variable $nama
+#0 C:\xampp8\htdocs\perpustakaan\app\Controllers\About.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp8\\htdoc...', 11)
+#1 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\About->index()
+#2 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-23 21:06:50 --> Undefined variable $nama
+#0 C:\xampp8\htdocs\perpustakaan\app\Controllers\About.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp8\\htdoc...', 11)
+#1 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\About->index()
+#2 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-23 21:07:10 --> Undefined variable $nama
+#0 C:\xampp8\htdocs\perpustakaan\app\Controllers\About.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp8\\htdoc...', 11)
+#1 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(832): App\Controllers\About->index()
+#2 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\About))
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#6 {main}
+CRITICAL - 2022-03-23 21:28:08 --> Class "app\Controllers\BaseController" not found
+#0 C:\xampp8\htdocs\perpustakaan\system\Router\Router.php(518): include_once()
+#1 C:\xampp8\htdocs\perpustakaan\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('admin/dashboard')
+#2 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('admin/dashboard')
+#3 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp8\htdocs\perpustakaan\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp8\htdocs\perpustakaan\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp8\htdocs\perpustakaan\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp8\\htdoc...')
+#7 {main}

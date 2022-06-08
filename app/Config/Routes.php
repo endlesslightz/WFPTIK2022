@@ -39,10 +39,11 @@ $routes->get('/user', 'User::index');
 $routes->get('/user/create', 'User::create');
 $routes->get('/user/data', 'User::getData');
 $routes->get('/user/form', 'User::getForm');
+$routes->get('/user/form/(:segment)', 'User::edit/$1');
 $routes->get('/user/(:segment)', 'User::detail/$1');
-
 $routes->post('/user/insert', 'User::insert');
-$routes->post('/user/insertAjax', 'User::insertAjax');
+$routes->put('/user/(:segment)', 'User::update/$1');
+$routes->delete('/user/(:segment)', 'User::hapus/$1');
 
 /*
  * --------------------------------------------------------------------

@@ -14,6 +14,7 @@
     <link href="<?= base_url('mdb/css/mdb.min.css'); ?>" rel="stylesheet" />
     <link href="<?= base_url('mdb/css/admin.css'); ?>" rel="stylesheet" />
     <link href="<?= base_url('datatables/datatables.min.css'); ?>" rel="stylesheet">
+    <link href="<?= base_url('node_modules/sweetalert2/dist/sweetalert2.min.css'); ?>" rel="stylesheet">
     <title>Hello, world!</title>
 </head>
 
@@ -21,11 +22,11 @@
     <?= $this->include('template/navigasi'); ?>
 
     <?= $this->renderSection('kontainer'); ?>
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script> -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
     <script src="<?= base_url('mdb/js/mdb.min.js'); ?>" crossorigin="anonymous"></script>
-    <script src="<?= base_url('mdb/js/admin.js'); ?>" crossorigin="anonymous"></script>
     <script src="<?= base_url('datatables/datatables.min.js'); ?>"></script>
+    <script src="<?= base_url('node_modules/sweetalert2/dist/sweetalert2.min.js'); ?>"></script>
+
     <script>
         function tampilData() {
             $.ajax({

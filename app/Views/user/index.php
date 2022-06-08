@@ -17,13 +17,13 @@
                     <?php } ?>
 
                     <h1>Daftar anggota</h1>
-                    <!-- <a href="user/create" class="btn btn-rounded btn-success mb-3">Tambah data</a> -->
+                    <a href="#" id="tambah" class="btn btn-rounded btn-success mb-3">Tambah data</a>
                     <div id="viewdata"></div>
                 </div>
             </div>
         </section>
     </div>
 
-    <div id="viewmodal" style="display: none;"></div>
+    <div id="viewmodal" style="display:none ;"></div>
 </main>
 <?= $this->endSection(); ?>

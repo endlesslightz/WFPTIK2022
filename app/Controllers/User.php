@@ -43,8 +43,6 @@ class User extends BaseController
             'nav' => 'user',
             'nama' => 'Boboboy',
         ];
-
-        // var_dump($data);
         return view('user/tambah', $data);
     }
 
@@ -78,38 +76,31 @@ class User extends BaseController
         return redirect()->to('/user');
     }
 
+
     public function insertAjax()
     {
-
         $validasi = \Config\Services::validation();
         $valid = $this->validate([
             'namadepan' => [
                 'label' => 'Nama Depan',
-                'rules' => 'required',
-                'errors' => ['required' => '{field} tidak boleh kosong']
+                'rules' => 'required|min_length[10]',
+                'errors' => [
+                    'required' => '{field} tidak boleh kosong',
+                    'min_length' => '{field} minimal 10 karakter'
+                ]
             ],
-
             'namabelakang' => [
                 'label' => 'Nama Belakang',
                 'rules' => 'required',
                 'errors' => ['required' => '{field} tidak boleh kosong']
-            ],
-
-            'email' => [
-                'label' => 'Email',
-                'rules' => 'required|is_unique[users.email]',
-                'errors' => [
-                    'required' => '{field} tidak boleh kosong',
-                    'is_unique' => '{field} sudah terdaftar'
-                ]
             ]
         ]);
+
         if (!$valid) {
             $pesan = [
                 'error' => [
                     'namadepan' => $validasi->getError('namadepan'),
                     'namabelakang' => $validasi->getError('namabelakang'),
-                    'email' => $validasi->getError('email'),
                 ]
             ];
             return $this->response->setJSON($pesan);
@@ -143,6 +134,110 @@ class User extends BaseController
         }
     }
 
+
+    public function edit($id)
+    {
+        if ($this->request->isAJAX()) {
+            $item = $this->usermodel->find($id);
+            $nama = explode(" ", $item['nama']);
+            $data = [
+                'id' => $item['id'],
+                'nama_depan' => $nama[0],
+                'nama_belakang' => $nama[1],
+                'alamat' => $item['alamat'],
+                'tempat_lahir' => $item['tempat_lahir'],
+                'tanggal_lahir' => $item['tanggal_lahir'],
+                'jenis_kelamin' => $item['jenis_kelamin'],
+                'telepon' => $item['telepon'],
+                'email' => $item['email'],
+                'username' => $item['username'],
+                'password' => $item['password'],
+                'avatar' => $item['avatar']
+            ];
+            $hasil = [
+                'data' => view('user/edit', $data)
+            ];
+            return $this->response->setJSON($hasil);
+        } else {
+            exit('data tidak dapat diload');
+        }
+    }
+
+    public function update($id)
+    {
+        $validasi = \Config\Services::validation();
+        $valid = $this->validate([
+            'namadepan' => [
+                'label' => 'Nama Depan',
+                'rules' => 'required|min_length[3]',
+                'errors' => [
+                    'required' => '{field} tidak boleh kosong',
+                    'min_length' => '{field} minimal 10 karakter'
+                ]
+            ],
+            'namabelakang' => [
+                'label' => 'Nama Belakang',
+                'rules' => 'required',
+                'errors' => ['required' => '{field} tidak boleh kosong']
+            ]
+        ]);
+        if (!$valid) {
+            $pesan = [
+                'error' => [
+                    'namadepan' => $validasi->getError('namadepan'),
+                    'namabelakang' => $validasi->getError('namabelakang'),
+                ]
+            ];
+            return $this->response->setJSON($pesan);
+        } else {
+            $nama = $this->request->getVar('namadepan') . " " . $this->request->getVar('namabelakang');
+            if ($this->request->getFile('avatar')->getName() != '') {
+                $avatar = $this->request->getFile('avatar');
+                $namaavatar = $avatar->getRandomName();
+                $avatar->move(ROOTPATH . 'public/images/avatar', $namaavatar);
+            } else {
+                $namaavatar = $this->request->getVar('avalama');
+            }
+            if ($this->request->getVar('password') != $this->request->getVar('passlama')) {
+                $pass = md5($this->request->getVar('password'));
+            } else {
+                $pass = $this->request->getVar('passlama');
+            }
+
+            $input = [
+                'id' => $id,
+                'nama' => $nama,
+                'alamat' => $this->request->getVar('alamat'),
+                'tempat_lahir' => $this->request->getVar('tempatlahir'),
+                'tanggal_lahir' => $this->request->getVar('tanggallahir'),
+                'jenis_kelamin' => $this->request->getVar('jeniskelamin'),
+                'telepon' => $this->request->getVar('telepon'),
+                'email' => $this->request->getVar('email'),
+                'username' => $this->request->getVar('username'),
+                'password' => $pass,
+                'avatar' => $namaavatar
+            ];
+            $this->usermodel->save($input);
+            $pesan = [
+                'sukses' => 'Data anggota berhasil diupdate'
+            ];
+            return $this->response->setJSON($pesan);
+        }
+    }
+
+    public function hapus($id)
+    {
+        if ($this->request->isAJAX()) {
+            $this->usermodel->delete($id);
+            $pesan = [
+                'sukses' => "Data anggota dengan ID=$id berhasil dihapus"
+            ];
+            return $this->response->setJSON($pesan);
+        } else {
+            exit('data tidak dapat dihapus');
+        }
+    }
+
     public function getData()
     {
         if ($this->request->isAJAX()) {
@@ -152,7 +247,6 @@ class User extends BaseController
             $hasil = [
                 'data' => view('user/list', $data)
             ];
-            // echo json_encode($hasil);
             return $this->response->setJSON($hasil);
         } else {
             exit('data tidak dapat diload');
@@ -166,7 +260,6 @@ class User extends BaseController
             $hasil = [
                 'data' => view('user/form')
             ];
-            // echo json_encode($hasil);
             return $this->response->setJSON($hasil);
         } else {
             exit('data tidak dapat diload');
